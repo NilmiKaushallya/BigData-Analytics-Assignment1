@@ -1,0 +1,30 @@
+# Java/Maven
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+.mvn/
+mvnw
+mvnw.cmd
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.classpath
+.project
+.settings/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Generated Avro classes
+src/main/java/com/kafka/order/Order.java
